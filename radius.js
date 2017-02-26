@@ -1,13 +1,13 @@
-var setRadius = function(newRadius){
-    if(newRadius<minRad)
+var setRadius = function (newRadius) {
+    if (newRadius < minRad)
         newRadius = minRad;
     else if(newRadius>maxRad)
         newRadius = maxRad;
     radius = newRadius;
     context.lineWidth = radius*2;
+    
     radSpan.innerHTML = radius;
-}
-
+};
 
 var minRad = 1,
     maxRad = 100,
