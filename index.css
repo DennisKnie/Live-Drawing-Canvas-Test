@@ -21,6 +21,7 @@
 .radcontrol{
     width: 30px;
     height: 30px;
+    border-radius: 10px;
     background-color: #4f4f4f;
     display: inline-block;
     text-align: center;
@@ -53,6 +54,7 @@
     float: right;
     margin-right: 20px;
     height: 30px;
+    border-radius: 10px;
     padding: 8px;
     background-color: #434343;
 }
